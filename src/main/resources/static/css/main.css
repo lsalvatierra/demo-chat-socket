@@ -1,0 +1,40 @@
+
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+
+.card {
+    max-width: 500px;
+    width: 100%;
+}
+
+#chat-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+}
+
+#chat-page ul li {
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.chat-header h2 {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    .card {
+        margin: 0 15px;
+    }
+
+    .chat-header h2 {
+        font-size: 1.1em;
+    }
+}
